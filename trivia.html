@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="trivia.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Trivia</title>
+
+  </head>
+
+
+  <body>
+        
+
+    <header>
+            <nav class="navbar navbar-light bg-light justify-content-between">
+                    <a class="navbar-brand">View Highscores</a>
+                    <form class="form-inline">
+                            <div id="some_div"></div>
+                    </a>
+                    </form>
+                  </nav>
+    </header>
+
+    <form id = "quiz" name = "quiz">
+
+
+            <p class = "questions">What does TRBL mean when talking about the Box Model?</p>
+            <input id = "textbox" type = "text" name = "question1">
+            
+
+            <p class = "questions">What do 3 equal signs(===) mean?</p>
+            <input type = "radio" id = "mc" name = "question2" value = "Hartford"> false<br>
+            <input type = "radio" id = "mc" name = "question2" value = "Heartford"> absolutely true<br>
+            <br>
+
+            <p class = "questions">What does and ID attribute do?"</p>
+            
+            <input type = "radio" id = "mc" name = "question3" value = "Albany"> classifies an element<br>
+            <input type = "radio" id = "mc" name = "question3" value = "All Benny's"> identifies an element<br>
+            <br>
+
+            <p class = "questions">How do you stop bubbling?</p>
+            
+            <input type = "radio" id = "mc" name = "question 4" value = "event.stopPropagation();"> event.stopPropagation();<br>
+            <input type = "radio" id = "mc" name = "question 4" value = "event.dontStopPropagation();"> event.dontStopPropagation();<br>
+            <br>
+
+            <p class = "questions">What does JSON.stringify do?</p>
+            <input type = "radio" id = "mc" name = "question 5" value = "convertstostring"> converts to a string<br>
+            <input type = "radio" id = "mc" name = "question 5" value = "converts to object"> converts to an object<br>
+            <br>
+
+
+            <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+            
+            
+            </form>
+            
+            <div id = "submit">
+            <p id = "number_correct"></p>
+            <p id = "message"></p>
+            
+            </div>
+ 
+    <script src="trivia.js"></script>
+
+  </body>
+</html>
