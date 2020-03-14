@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jonathan's Quiz Game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <nav>
+        <div id="highscorelink">
+            <a href="score.html"> View Scores</a>
+        </div>
+        <div id="timer">
+            <p>time : <span id="timeleft">0</span></p>
+        </div>
+    </nav>
+    <body>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 center">    
+                    <h1 id="headertag">coding quiz</h1>
+                </div>
+                <div class="col-md-3"></div>               
+            </div>
+            <div class="row">
+                <div class="col-md-6 center" id="choice">
+                        <p>click on start quiz to begain. there are alot of questions and you get 15 seconds for each question. If you get a question wrong there is penalty of 10 seconds subtract from the time remainding. The quiz will end if the time is ended</p>
+                        <button class="btn btn-danger" id="thestart">start</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <div>
+                        <b id="message"></b>
+                    </div>
+            </div>
+            </div>
+        </section>
+        <script src="assets/javascript/quiz2.js"></script>
+        <script src="assets/javascript/quiz1.js"></script>
+        
+    </body>
+
+</html>
